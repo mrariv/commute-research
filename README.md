@@ -1,17 +1,14 @@
-# Commute and Well-being Relationship
-A project that involved data collection, preprocessing and further analysis to determine how commute features are related with well-being indicators. The project was completed as my first ever research.
+# Commute and Well-Being Relationship
+This was my first independent research project, focused on understanding how commute characteristic relate to students' well-being.
 
 ## Data Collection
-Data was collected using webiste parsing (Selenium) and automation (PyAutoGUI) due to its unavailability. The chosen sample of students and their e-mail addresses were then used to send out question survey.
+Data was obtained through webiste parsing (using Selenium) and automation tools (PyAutoGUI), due to its limited public availability. The chosen sample of students was identified, and e-mail addresses were used to distribute a survey with well-being and commute-related questions.
 
 ## Data Preparation
-For analysis data was prepared by ordinally encoding all key variables and one-hot encoding of categorical variables.
+Key variables were ordinally encoded, and categorical variables were processed using one-hot encoding to prepare the dataset for analysis.
 
 ## Data Analysis
-After collecting data it was analyzed by using regression tools, primarily linear regression with heteroscedasticity-consistent standard errors. The analysis also includes visual demonstration of distributions.
-
-Correlation analysis was also used to find potential relations between variables.
+The analysis involved multiple regression models, primarily linear regression with heteroscedasticity-consistent standard errors. Distribution visualizations and correlation analysis were used to explore variable relationships.
 
 ## Results
-Resutls showcased that usage of train during commute is moderately correlated with commute time. It also showed that students of the furthest from the center college building show a moderate negative correlation with metro usage, meaning students of HSE MIEM faculty are less likely to use metro in their daily commute route.
-Overall, students showed an average of 60 minutes of commute time which is significantly greater than in other major urban areas. 
+The results revealed a moderate correlation between train usage and commute time. Additionally, students from the HSE MIEM faculty — located furthest from the city center — were moderately less likely to use the metro. On average, students reported a daily commute time of 60 minutes, which is significantly longer than typical averages in other large urban areas.
